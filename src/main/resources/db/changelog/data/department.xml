@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="V.A" id="dev_data_DEPARTMENT" context="dev">
+
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="1"/>
+            <column name="NAME" value="Computer Science"/>
+            <column name="BLOCK" value="A"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="2"/>
+            <column name="NAME" value="Information Technology"/>
+            <column name="BLOCK" value="A"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="3"/>
+            <column name="NAME" value="Civil"/>
+            <column name="BLOCK" value="B"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="4"/>
+            <column name="NAME" value="Mechanical"/>
+            <column name="BLOCK" value="B"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="5"/>
+            <column name="NAME" value="Electronics and Communication"/>
+            <column name="BLOCK" value="C"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="6"/>
+            <column name="NAME" value="Electrical"/>
+            <column name="BLOCK" value="C"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="7"/>
+            <column name="NAME" value="Chemical"/>
+            <column name="BLOCK" value="D"/>
+        </insert>
+        <insert tableName="DEPARTMENT">
+            <column name="DEPARTMENT_ID" valueNumeric="8"/>
+            <column name="NAME" value="Instruments and Control"/>
+            <column name="BLOCK" value="D"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

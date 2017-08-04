@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="create_table_DEPARTMENT" author="V.A" context="master">
+
+        <createTable tableName="DEPARTMENT">
+
+            <column name="DEPARTMENT_ID" type="bigint">
+                <constraints primaryKey="true"  primaryKeyName="PK_DEPARTMENT"/>
+            </column>
+
+            <column name="NAME" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="BLOCK" type="varchar(2)"/>
+
+        </createTable>
+
+    </changeSet>
+
+
+    <changeSet id="create_table_SUBJECT" author="V.A" context="master">
+
+        <createTable tableName="SUBJECT">
+
+            <column name="SUBJECT_ID" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="PK_SUBJECT"/>
+            </column>
+
+            <column name="NAME" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="DEPARTMENT_ID" type="bigint">
+                <constraints foreignKeyName="FK_SUB_DEP"
+                             referencedTableName="DEPARTMENT"
+                             referencedColumnNames="DEPARTMENT_ID"/>
+            </column>
+
+            <column name="CREDIT" type="bigint(2)"/>
+
+        </createTable>
+
+    </changeSet>
+
+
+    <changeSet id="create_table_STUDENT" author="V.A" context="master">
+
+        <createTable tableName="STUDENT">
+
+            <column name="STUDENT_ID" type="bigint">
+                <constraints primaryKey="true" primaryKeyName="PK_STUDENT"/>
+            </column>
+
+            <column name="NAME" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="AGE" type="int"/>
+
+            <column name="SEMESTER" type="int"/>
+
+            <column name="DEPARTMENT_ID" type="bigint">
+                <constraints foreignKeyName="FK_STU_DEP"
+                             referencedTableName="DEPARTMENT"
+                             referencedColumnNames="DEPARTMENT_ID"/>
+            </column>
+
+        </createTable>
+
+    </changeSet>
+
+
+    <changeSet id="create_table_STUDENT_SUBJECT_XREF" author="V.A" context="master">
+
+        <createTable tableName="STUDENT_SUBJECT_XREF">
+
+            <column name="STUDENT_ID" type="bigint">
+
+                <constraints foreignKeyName="FK_SSX_STU"
+                             referencedTableName="STUDENT"
+                             referencedColumnNames="STUDENT_ID"/>
+            </column>
+
+            <column name="SUBJECT_ID" type="bigint">
+                <constraints foreignKeyName="FK_SSX_SUB"
+                             referencedTableName="SUBJECT"
+                             referencedColumnNames="SUBJECT_ID"/>
+            </column>
+
+        </createTable>
+
+    </changeSet>
+
+</databaseChangeLog>

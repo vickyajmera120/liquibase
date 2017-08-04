@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <!-- Release: 1.0.0 -->
+    <include file="db/changelog/release/1.0.0_Release.xml"/>
+    <!-- Dev data 1.0.0 -->
+    <include file="db/changelog/data/department.xml"/>
+    <include file="db/changelog/data/student.xml"/>
+    <include file="db/changelog/data/subject.xml"/>
+    <include file="db/changelog/data/student_subject_xref.xml"/>
+
+</databaseChangeLog>

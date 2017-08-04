@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="V.A" id="dev_data_STUDENT" context="dev">
+
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="1"/>
+            <column name="NAME" value="Deepak"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="2"/>
+            <column name="NAME" value="Priyank"/>
+            <column name="AGE" valueNumeric="18"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="3"/>
+            <column name="NAME" value="Mehul"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="4"/>
+            <column name="NAME" value="Dhaval"/>
+            <column name="AGE" valueNumeric="18"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="5"/>
+            <column name="NAME" value="Nishit"/>
+            <column name="AGE" valueNumeric="18"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="6"/>
+            <column name="NAME" value="Harshit"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="7"/>
+            <column name="NAME" value="Mansi"/>
+            <column name="AGE" valueNumeric="18"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="8"/>
+            <column name="NAME" value="Tanmay"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="8"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="9"/>
+            <column name="NAME" value="Sandeep"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="10"/>
+            <column name="NAME" value="Dhruv"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="11"/>
+            <column name="NAME" value="Saloni"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="7"/>
+            <column name="DEPARTMENT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="12"/>
+            <column name="NAME" value="Aditi"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="13"/>
+            <column name="NAME" value="Vani"/>
+            <column name="AGE" valueNumeric="22"/>
+            <column name="SEMESTER" valueNumeric="7"/>
+            <column name="DEPARTMENT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="14"/>
+            <column name="NAME" value="Anjum"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="15"/>
+            <column name="NAME" value="Kushagra"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="16"/>
+            <column name="NAME" value="Amit"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="8"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="17"/>
+            <column name="NAME" value="Ravi"/>
+            <column name="AGE" valueNumeric="20"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="18"/>
+            <column name="NAME" value="Venus"/>
+            <column name="AGE" valueNumeric="22"/>
+            <column name="SEMESTER" valueNumeric="7"/>
+            <column name="DEPARTMENT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="19"/>
+            <column name="NAME" value="Harsh"/>
+            <column name="AGE" valueNumeric="18"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="20"/>
+            <column name="NAME" value="Kinjal"/>
+            <column name="AGE" valueNumeric="21"/>
+            <column name="SEMESTER" valueNumeric="7"/>
+            <column name="DEPARTMENT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="21"/>
+            <column name="NAME" value="Prashant"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="3"/>
+            <column name="DEPARTMENT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="22"/>
+            <column name="NAME" value="Vipin"/>
+            <column name="AGE" valueNumeric="21"/>
+            <column name="SEMESTER" valueNumeric="5"/>
+            <column name="DEPARTMENT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="23"/>
+            <column name="NAME" value="Dilip"/>
+            <column name="AGE" valueNumeric="17"/>
+            <column name="SEMESTER" valueNumeric="1"/>
+            <column name="DEPARTMENT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT">
+            <column name="STUDENT_ID" valueNumeric="24"/>
+            <column name="NAME" value="Anshu"/>
+            <column name="AGE" valueNumeric="22"/>
+            <column name="SEMESTER" valueNumeric="7"/>
+            <column name="DEPARTMENT_ID" valueNumeric="8"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

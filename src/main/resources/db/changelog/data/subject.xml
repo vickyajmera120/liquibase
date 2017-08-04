@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="V.A" id="dev_data_SUBJECT" context="dev">
+
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="1"/>
+            <column name="NAME" value="Java"/>
+            <column name="DEPARTMENT_ID" valueNumeric="1"/>
+            <column name="CREDIT" valueNumeric="4"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="2"/>
+            <column name="NAME" value="Operating System"/>
+            <column name="DEPARTMENT_ID" valueNumeric="2"/>
+            <column name="CREDIT" valueNumeric="3"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="3"/>
+            <column name="NAME" value="Structural Design"/>
+            <column name="DEPARTMENT_ID" valueNumeric="3"/>
+            <column name="CREDIT" valueNumeric="3"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="4"/>
+            <column name="NAME" value="Quantum Physics"/>
+            <column name="DEPARTMENT_ID" valueNumeric="4"/>
+            <column name="CREDIT" valueNumeric="5"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="5"/>
+            <column name="NAME" value="Digital System Design"/>
+            <column name="DEPARTMENT_ID" valueNumeric="5"/>
+            <column name="CREDIT" valueNumeric="5"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="6"/>
+            <column name="NAME" value="Power Electronics"/>
+            <column name="DEPARTMENT_ID" valueNumeric="6"/>
+            <column name="CREDIT" valueNumeric="3"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="7"/>
+            <column name="NAME" value="Organic Chemistry"/>
+            <column name="DEPARTMENT_ID" valueNumeric="7"/>
+            <column name="CREDIT" valueNumeric="4"/>
+        </insert>
+        <insert tableName="SUBJECT">
+            <column name="SUBJECT_ID" valueNumeric="8"/>
+            <column name="NAME" value="Embedded Controller"/>
+            <column name="DEPARTMENT_ID" valueNumeric="8"/>
+            <column name="CREDIT" valueNumeric="3"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="V.A" id="dev_data_STUDENT_SUBJECT_XREF" context="dev">
+
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="1"/>
+            <column name="SUBJECT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="2"/>
+            <column name="SUBJECT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="3"/>
+            <column name="SUBJECT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="4"/>
+            <column name="SUBJECT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="5"/>
+            <column name="SUBJECT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="6"/>
+            <column name="SUBJECT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="7"/>
+            <column name="SUBJECT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="8"/>
+            <column name="SUBJECT_ID" valueNumeric="8"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="9"/>
+            <column name="SUBJECT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="10"/>
+            <column name="SUBJECT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="11"/>
+            <column name="SUBJECT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="12"/>
+            <column name="SUBJECT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="13"/>
+            <column name="SUBJECT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="14"/>
+            <column name="SUBJECT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="15"/>
+            <column name="SUBJECT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="16"/>
+            <column name="SUBJECT_ID" valueNumeric="8"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="17"/>
+            <column name="SUBJECT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="18"/>
+            <column name="SUBJECT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="19"/>
+            <column name="SUBJECT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="20"/>
+            <column name="SUBJECT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="21"/>
+            <column name="SUBJECT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="22"/>
+            <column name="SUBJECT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="23"/>
+            <column name="SUBJECT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="STUDENT_SUBJECT_XREF">
+            <column name="STUDENT_ID" valueNumeric="24"/>
+            <column name="SUBJECT_ID" valueNumeric="8"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>
