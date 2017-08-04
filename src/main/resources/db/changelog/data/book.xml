@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="V.A" id="dev_data_BOOK" context="dev">
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="1"/>
+            <column name="NAME" value="Java by James Gosling"/>
+            <column name="SUBJECT_ID" valueNumeric="1"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="2"/>
+            <column name="NAME" value="Operating System Fundamentals"/>
+            <column name="SUBJECT_ID" valueNumeric="2"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="3"/>
+            <column name="NAME" value="Structural Design by Forouzan"/>
+            <column name="SUBJECT_ID" valueNumeric="3"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="4"/>
+            <column name="NAME" value="Quantum Physics by HC Verma"/>
+            <column name="SUBJECT_ID" valueNumeric="4"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="5"/>
+            <column name="NAME" value="Digital System Design by Thomas Cook"/>
+            <column name="SUBJECT_ID" valueNumeric="5"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="6"/>
+            <column name="NAME" value="Power Electronics Fundamentals"/>
+            <column name="SUBJECT_ID" valueNumeric="6"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="7"/>
+            <column name="NAME" value="Organic Chemistry"/>
+            <column name="SUBJECT_ID" valueNumeric="7"/>
+        </insert>
+        <insert tableName="BOOK">
+            <column name="BOOK_ID" valueNumeric="8"/>
+            <column name="NAME" value="Embedded Controller Designs"/>
+            <column name="SUBJECT_ID" valueNumeric="8"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="create_table_BOOK" author="V.A" context="master">
+
+        <createTable tableName="BOOK">
+
+            <column name="BOOK_ID" type="bigint">
+                <constraints primaryKey="true"  primaryKeyName="PK_BOOK"/>
+            </column>
+
+            <column name="NAME" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="SUBJECT_ID" type="bigint">
+                <constraints foreignKeyName="FK_BK_SUB"
+                             referencedTableName="SUBJECT"
+                             referencedColumnNames="SUBJECT_ID"/>
+            </column>
+
+        </createTable>
+
+    </changeSet>
+
+</databaseChangeLog>

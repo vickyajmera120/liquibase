@@ -1,0 +1,11 @@
+server:
+  port: 9292
+  context-path: /liquibase
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    dataSourceClassName: oracle.jdbc.xa.client.OracleXADataSource
+
+    username: liquibase_user
+    password: password

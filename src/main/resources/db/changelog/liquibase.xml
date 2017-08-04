@@ -13,4 +13,9 @@
     <include file="db/changelog/data/subject.xml"/>
     <include file="db/changelog/data/student_subject_xref.xml"/>
 
+    <!-- Release: 2.0.0 -->
+    <include file="db/changelog/release/2.0.0_Release.xml"/>
+    <!-- Dev data 2.0.0 -->
+    <include file="db/changelog/data/book.xml"/>
+
 </databaseChangeLog>
