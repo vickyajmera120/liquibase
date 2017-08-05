@@ -18,4 +18,7 @@
     <!-- Dev data 2.0.0 -->
     <include file="db/changelog/data/book.xml"/>
 
+    <!-- Release: 3.0.0 -->
+    <include file="db/changelog/release/3.0.0_Release.xml"/>
+
 </databaseChangeLog>
